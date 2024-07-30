@@ -1,0 +1,89 @@
+/* styles.css */
+body {
+    background-color: #e9e904;
+    background: linear-gradient(180deg, #ffea297e, #68018893); /* Gradient background */
+    padding: 70px;
+    color: white;
+    /* margin: 0; */
+    /* padding: 0%; */
+    /* height: 30%;
+    overflow:auto;
+    background-image: url("documents/IMG_1563.JPG");
+    background-size:cover ;
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    background-position:center top; */
+    }
+
+
+
+.content {
+      min-height: 50vh;
+  }
+  
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 800px;
+    border: none;
+    }
+
+img {
+    width: 100px;
+    mix-blend-mode: multiply;
+    }
+
+
+/* Container for the buttons */
+.button-container {
+    vertical-align:middle;
+    display: flex;
+    justify-content:right;
+    align-items: center;
+    gap: 200px; /* Space between buttons */
+    margin-top: 5px;
+    margin-bottom: 50px;
+    }
+
+
+
+/* Style for the icon buttons */
+.icon-button {
+    display: inline-block;
+    text-decoration:none;
+    }
+
+.icon-button span {
+    position: relative;
+    font-family:"Lalezar","serif";
+    display: block;
+    margin-top: 5%; /* Space between image and text */
+    color: #520072; /* Text color */
+    font-size: 25px; /* Font size */
+    text-align: center;
+    }
+
+.icon-button img {
+    width: 200px; /* Adjust size as needed */
+    height: 200px; /* Adjust size as needed */
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    mix-blend-mode: multiply;
+    border:solid 3px ;
+    border-color: #520072;
+    }
+
+.icon-button:hover img {
+    transform: scale(1.1); /* Slightly enlarge on hover */
+    /* border-color: #5108c5d5; */
+    }
+
+.footer-text h1 {
+    font-family: "Lalezar";
+    font-size: 3.5em;
+    font-weight:lighter;
+    text-align: center;
+    color: #e7d000;
+}
