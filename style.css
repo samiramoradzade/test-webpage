@@ -1,5 +1,5 @@
 /* styles.css */
-@media screen and (max-width:481px){
+@media screen and (max-width:100px){
 body {
     background-color: #e9e904;
     background: linear-gradient(180deg, #ffea297e, #68018893); /* Gradient background */
