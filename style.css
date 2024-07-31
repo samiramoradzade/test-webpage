@@ -1,4 +1,5 @@
 /* styles.css */
+@media screen and (max-width:481px){
 body {
     background-color: #e9e904;
     background: linear-gradient(180deg, #ffea297e, #68018893); /* Gradient background */
@@ -86,4 +87,5 @@ img {
     font-weight:lighter;
     text-align: center;
     color: #e7d000;
+}
 }
